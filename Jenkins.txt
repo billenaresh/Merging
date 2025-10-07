@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Build') { // First stage: Build
             steps {
-                echo 'Building the application...' // Echo command for demonstration
+                echo 'Building the application1.0...' // Echo command for demonstration
                 // Add your build commands here, e.g.,
-                // sh 'mvn clean install'
+                // sh 'mvn deploy'
             }
         }
 
